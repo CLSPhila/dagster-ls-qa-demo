@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dagster-ls-qa-demo"
+version = "0.1.0"
+description = "Demo of using Dagster for LegalServer QA"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "dagster_ls_qa_demo"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dagster = "==1.3.3"
+dagster-cloud = "==1.3.3"
+dagit = "==1.3.3"
+ls-report-agent = {path="../ls_report_agent"}
+sendgrid = "==6.10.0"
+pandas = "^2.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
