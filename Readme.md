@@ -1,10 +1,12 @@
+** Work in progress. Feedback appreciated! **
 
 # Orchestrating Case Management Quality Assurance
 
 
+
 ## The payoff
 
-At Community Legal Services, we rely heavily on our case management system, LegalServer, to collect data for reporting on our work to funders. We collect a lot of data. There hundreds of different fields on thousands of cases, people, and other kinds of entities. And we have an ever-growing list of rules to ensure the quality of that data: cases that close as brief advice shouldn't also record that the case involved litigation in a state court; cases that are funded by certain projects need to have certain data fields filled in. And so on. There are a few dozen of these rules now, and the list is always growing.
+At Community Legal Services, we rely heavily on our case management system, LegalServer, to collect data for reporting on our work to funders. We collect a lot of data. There are hundreds of different fields on thousands of cases, people, and other kinds of entities. And we have an ever-growing list of rules to ensure the quality of that data: cases that close as brief advice shouldn't also record that the case involved litigation in a state court; cases that are funded by certain projects need to have certain data fields filled in. And so on. There are a few dozen of these rules now, and the list is always growing.
 
 We need to be able to:
 1. Identify all the errors
