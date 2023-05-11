@@ -3,7 +3,7 @@ name = "dagster-ls-qa-demo"
 version = "0.1.0"
 description = "Demo of using Dagster for LegalServer QA"
 authors = ["Your Name <you@example.com>"]
-license = "MIT"
+license = "APACHE 2.0"
 readme = "README.md"
 packages = [{include = "dagster_ls_qa_demo"}]
 
