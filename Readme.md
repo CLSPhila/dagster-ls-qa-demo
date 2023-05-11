@@ -131,7 +131,7 @@ You could make a whole lot of these asset functions. They'll each be pretty much
 language_missing = make_case_error_asset(
         "language_missing", # dagster's name for the asset
          "language is missing for these cases", # description for users
-         "URL_language_missing", # Dagster's description for the asset
+         "URL_language_missing", # Environment variable with url for report
          "Please make sure language is selected for the these cases", #instructions
          "matter/url/for/case", # url stub will have the case-id appended at the end.
          "admin@myorg.example", # address that should hear about _all_ the errors.
