@@ -61,7 +61,7 @@ Everything in Dagster happens in Python, so you'll need Python installed. And yo
 
 Once you've got Python set up, install the `Poetry` package manger. https://python-poetry.org/docs/. You can use python's default package manager, `pip` if you prefer, but I've set up a demo project to help you get started, and that project uses `Poetry.`  
 
-Dagster has instructions for creating a new dagster project. https://docs.dagster.io/getting-started/create-new-project. But lets keep things even simpler. I've created a demo project that you can just download from here: ______- 
+Dagster has instructions for creating a new dagster project. https://docs.dagster.io/getting-started/create-new-project. But lets keep things even simpler. I've created a demo project that you can just download from here: https://github.com/CLSPhila/dagster-ls-qa-demo 
 
 Download that project (or use `git` to clone it, if you're familiar with that.) And install with `poetry intall`. 
 
