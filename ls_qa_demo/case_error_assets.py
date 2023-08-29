@@ -8,6 +8,9 @@ import pandas as pd
 
 @asset()
 def case_error_asset() -> Output:
+    """
+    Comments to explain something about the error.
+    """
     # env var url should be an environment varialbe
     env_var_url = os.environ.get("THIS_REPORT_URL","")
     instructions = "To fix this error, just change X to Y."
